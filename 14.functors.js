@@ -8,8 +8,8 @@ const id = x => x;
 // Law 1: fx.map(f).map(g) == fx.map(x => g(f(x)))
 // Law 2: fx.map(id) == id(fx)
 
-const res1 = List.of('Test').map(s => s.length).map(n => n + 3);
-const res2 = List.of('Test').map(s => s.length + 3);
+const res1 = Task.of('Test').map(s => s.length).map(n => n + 3);
+const res2 = Task.of('Test').map(s => s.length + 3);
 
 console.log(res1);
 console.log(res2);

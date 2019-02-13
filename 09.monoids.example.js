@@ -20,8 +20,7 @@ const formNullable = x =>
 
 const stats = List.of({
     page: 'Home',
-    views: 40
-    ,
+    views: 40,
 }, {
     page: 'About',
     views: 10,

@@ -7,7 +7,10 @@ const res = LazyBox(() => '  64  ')
     .map(s => s.trim())
     .map(s => parseInt(s))
     .map(i => i + 1)
-    .map(i => String.fromCharCode(i))
-    .fold(c => c.toLowerCase());
+    .map(i => String.fromCharCode(i));
 
-console.log(res);
+
+
+//res.fold(c => c.toLowerCase());
+
+//console.log(res);
